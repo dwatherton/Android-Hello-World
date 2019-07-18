@@ -46,7 +46,7 @@
             android:layout_marginTop="24dp"
             android:background="#E91E63"
             android:fontFamily="sans-serif-black"
-            android:text="show text"
+            android:text="@string/show_btn"
             android:textColor="#FFFFFF"
             android:textSize="18sp"
             android:textStyle="bold" />
