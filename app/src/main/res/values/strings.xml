@@ -3,4 +3,5 @@
     <string name="default_msg">Mobile Apps Development at UALR</string>
     <string name="write_msg_hint">Write the message</string>
     <string name="show_btn">show message</string>
+    <string name="clear_btn">clear input</string>
 </resources>

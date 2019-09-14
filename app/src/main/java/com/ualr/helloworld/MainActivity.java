@@ -21,6 +21,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void showTextMessage(View view) {
-        userMsgTV.setText(userInputET.getText().toString());
+        // Only Update User Input Edit Text If The Field Is NOT Empty
+        if (!userInputET.getText().toString().isEmpty()) {
+            userMsgTV.setText(userInputET.getText().toString());
+        }
+    }
+
+    public void clearInputText(View view) {
+        // Allow User To Clear The Text In The Text Edit Field
+        userInputET.setText("");
     }
 }
